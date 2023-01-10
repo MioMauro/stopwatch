@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(black, brown);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    height: 100vh;
+    text-align: center;
+}
+
+h1{
+    font-size: 3.5rem;
+    text-shadow: 1px 1px white;
+}
+
+span{
+    font-size: 2rem;
+    
+}
+
+button{
+    cursor: pointer;
+    margin: 1rem;
+    background-color: black;
+    color: aliceblue;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    border: 1px solid red;
+}
